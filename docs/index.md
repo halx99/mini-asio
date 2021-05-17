@@ -1,12 +1,9 @@
 # yasio 中文文档
 
-[![Documentation Status](https://readthedocs.org/projects/yasio-docs/badge/?version=latest)](https://readthedocs.org/projects/yasio-docs)
+[![Docs Status](https://github.com/yasio/yasio/workflows/docs/badge.svg)](https://github.com/yasio/yasio/actions?query=workflow%3Adocs)
 
 yasio 是一个轻量级跨平台的异步socket库，专注于客户端和基于各种游戏引擎的游戏客户端网络服务。
 
-- 文档语言:
-    - [English](../../en/latest/)
-    - [简体中文](../../zh_CN/latest/)
 - 跨平台性:
     - 编译器: 
         - Visual Studio 2013+
