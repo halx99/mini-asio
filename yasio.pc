@@ -5,6 +5,6 @@ includedir=${exec_prefix}/include
 
 Name: yasio
 Description:  A multi-platform support c++11 library with focus on asio (asynchronous socket I/O) for any client application. 
-Version: 3.37.1
+Version: 3.37.2
 Libs: -L${libdir} 
 Cflags: -I${includedir}/yasio
