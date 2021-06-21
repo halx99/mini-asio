@@ -471,7 +471,7 @@ int main(){
                         65535, // maxFrameLength, max packet size
                         2,     // lenghtFieldOffset, the offset of length field
                         4,     // lengthFieldLength, the size of length field, can be 1,2,4
-                        12,    // lengthAdjustment：if the value of length feild == packet.header.len + packet.data.len, this parameter should be 0, otherwise should be sizeof(packet.header)
+                        12    // lengthAdjustment：if the value of length feild == packet.header.len + packet.data.len, this parameter should be 0, otherwise should be sizeof(packet.header)
     );
 
     // for application protocol without length field, just sets length field size to -1.
